@@ -4,6 +4,46 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dulce de Maiz - Repostería Artesanal</title>
+<meta name="description" content="Repostería artesanal mexicana: pastel de elote, tamales dulces, tortillas y antojitos. Pedidos por encargo y para eventos.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#F3E1C0">
+
+<link rel="canonical" href="https://dulcedemaiz.com/">
+<link rel="icon" href="/public/logo/delicia-logo.jpeg" type="image/jpeg">
+
+<meta property="og:title" content="Dulce de Maiz | Repostería Artesanal">
+<meta property="og:description" content="Repostería artesanal mexicana: pastel de elote, tamales dulces, tortillas y antojitos. Pedidos por encargo y para eventos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dulcedemaiz.com/">
+<meta property="og:site_name" content="Dulce de Maiz">
+<meta property="og:locale" content="es_MX">
+<meta property="og:image" content="https://dulcedemaiz.com/public/slider/mesa-tamales.png">
+<meta property="og:image:alt" content="Mesa de tamales y repostería artesanal mexicana">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dulce de Maiz | Repostería Artesanal">
+<meta name="twitter:description" content="Repostería artesanal mexicana: pastel de elote, tamales dulces, tortillas y antojitos. Pedidos por encargo y para eventos.">
+<meta name="twitter:image" content="https://dulcedemaiz.com/public/slider/mesa-tamales.png">
+
+<link rel="preload" as="image" href="/public/slider/mesa-tamales.webp" type="image/webp">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "@id": "https://dulcedemaiz.com/#business",
+  "name": "Dulce de Maiz",
+  "url": "https://dulcedemaiz.com/",
+  "logo": "https://dulcedemaiz.com/public/logo/delicia-logo.jpeg",
+  "image": [
+    "https://dulcedemaiz.com/public/slider/mesa-tamales.png",
+    "https://dulcedemaiz.com/public/slider/postres.png"
+  ],
+  "description": "Repostería artesanal mexicana: pastel de elote, tamales dulces, tortillas y antojitos. Pedidos por encargo y para eventos.",
+  "telephone": "+525591067390",
+  "email": "info@dulcedemaiz.com"
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
@@ -16,12 +56,15 @@
 
 <!-- HEADER -->
 <header>
-    <div class="header-container">
-        <div class="logo">
-            <a href="/#home" aria-label="Ir al inicio">
-                <img src="/public/logo/delicia-logo.jpeg" alt="Dulce de Maiz">
-            </a>
-        </div>
+	    <div class="header-container">
+	        <div class="logo">
+	            <a href="/#home" aria-label="Ir al inicio">
+	                <picture>
+	                    <source srcset="/public/logo/delicia-logo.webp" type="image/webp">
+	                    <img src="/public/logo/delicia-logo.jpeg" width="410" height="607" alt="Logo Dulce de Maiz" decoding="async">
+	                </picture>
+	            </a>
+	        </div>
         <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
             <span></span>
             <span></span>
@@ -41,41 +84,52 @@
     </div>
 </header>
 
+<main>
+
 <!-- SLIDER HERO -->
 <div class="slider" id="home">
-    <div class="slides" id="slides">
-        <!-- Slide 1 -->
-        <div class="slide">
-            <img src="/public/slider/mesa-tamales.png" alt="Dulce de Maiz">
-            <div class="slide-overlay">
-                <div class="slide-content">
-                    <h1>Dulce de Maiz</h1>
+	    <div class="slides" id="slides">
+	        <!-- Slide 1 -->
+	        <div class="slide">
+	            <picture>
+	                <source srcset="/public/slider/mesa-tamales.webp" type="image/webp">
+	                <img src="/public/slider/mesa-tamales.png" alt="Mesa de tamales y repostería artesanal mexicana" width="1024" height="1024" decoding="async" fetchpriority="high">
+	            </picture>
+	            <div class="slide-overlay">
+	                <div class="slide-content">
+	                    <h1>Dulce de Maiz</h1>
                     <p>Repostería artesanal mexicana con el auténtico sabor de casa</p>
                     <a href="#pasteles" class="btn">Ver Pasteles</a>
                 </div>
             </div>
-        </div>
-        <!-- Slide 2 - Vous ajouterez les autres images plus tard -->
-        <div class="slide">
-            <img src="/public/slider/postres.png" alt="Nuestros Productos">
-            <div class="slide-overlay">
-                <div class="slide-content">
-                    <h1>Pastel de Elote</h1>
-                    <p>Hecho con maíz fresco y amor</p>
-                    <a href="#pasteles" class="btn">Descubrir</a>
-                </div>
-            </div>
-        </div>
-        <!-- Slide 3 -->
-        <div class="slide">
-            <img src="/public/slider/senoras.png" alt="Tradición">
-            <div class="slide-overlay">
-                <div class="slide-content">
-                    <h1>Sabores Tradicionales</h1>
-                    <p>Recetas transmitidas de generación en generación</p>
-                    <a href="#contacto" class="btn">Contáctanos</a>
-                </div>
-            </div>
+	        </div>
+	        <!-- Slide 2 - Vous ajouterez les autres images plus tard -->
+	        <div class="slide">
+	            <picture>
+	                <source srcset="/public/slider/postres.webp" type="image/webp">
+	                <img src="/public/slider/postres.png" alt="Postres artesanales mexicanos" width="1024" height="1024" decoding="async">
+	            </picture>
+	            <div class="slide-overlay">
+	                <div class="slide-content">
+	                    <h2>Pastel de Elote</h2>
+	                    <p>Hecho con maíz fresco y amor</p>
+	                    <a href="#pasteles" class="btn">Descubrir</a>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- Slide 3 -->
+	        <div class="slide">
+	            <picture>
+	                <source srcset="/public/slider/senoras.webp" type="image/webp">
+	                <img src="/public/slider/senoras.png" alt="Tradición: recetas de generación en generación" width="1024" height="1024" decoding="async">
+	            </picture>
+	            <div class="slide-overlay">
+	                <div class="slide-content">
+	                    <h2>Sabores Tradicionales</h2>
+	                    <p>Recetas transmitidas de generación en generación</p>
+	                    <a href="#contacto" class="btn">Contáctanos</a>
+	                </div>
+	            </div>
         </div>
     </div>
     
@@ -149,20 +203,29 @@
     <h2>Nuestros Mejores Productos</h2>
     <div class="menu-carousel">
         <button class="carousel-arrow carousel-prev" onclick="moveProductCarousel(-1)">‹</button>
-        <div class="menu-grid" id="productCarousel">
-            <div class="item">
-                <img src="/public/productos/tamales.png" alt="Tamales de Cajeta" style="width: 100%; height: 250px; object-fit: cover;">
-                <h3>Tamales de Cajeta</h3>
-            </div>
-            <div class="item">
-                <img src="/public/productos/pastel-elote.png" alt="Pastel de Elote" style="width: 100%; height: 250px; object-fit: cover;">
-                <h3>Pastel de Elote</h3>
-            </div>
-            <div class="item">
-                <img src="/public/productos/tortillas.png" alt="Tortillas azules" style="width: 100%; height: 250px; object-fit: cover;">
-                <h3>Tortillas azules</h3>
-            </div>
-        </div>
+	        <div class="menu-grid" id="productCarousel">
+	            <div class="item">
+	                <picture>
+	                    <source srcset="/public/productos/tamales.webp" type="image/webp">
+	                    <img src="/public/productos/tamales.png" alt="Tamales de cajeta" width="1024" height="1024" loading="lazy" decoding="async" style="width: 100%; height: 250px; object-fit: cover;">
+	                </picture>
+	                <h3>Tamales de Cajeta</h3>
+	            </div>
+	            <div class="item">
+	                <picture>
+	                    <source srcset="/public/productos/pastel-elote.webp" type="image/webp">
+	                    <img src="/public/productos/pastel-elote.png" alt="Pastel de elote artesanal" width="1024" height="1024" loading="lazy" decoding="async" style="width: 100%; height: 250px; object-fit: cover;">
+	                </picture>
+	                <h3>Pastel de Elote</h3>
+	            </div>
+	            <div class="item">
+	                <picture>
+	                    <source srcset="/public/productos/tortillas.webp" type="image/webp">
+	                    <img src="/public/productos/tortillas.png" alt="Tortillas azules" width="1024" height="1024" loading="lazy" decoding="async" style="width: 100%; height: 250px; object-fit: cover;">
+	                </picture>
+	                <h3>Tortillas azules</h3>
+	            </div>
+	        </div>
         <button class="carousel-arrow carousel-next" onclick="moveProductCarousel(1)">›</button>
     </div>
 </div>
@@ -233,17 +296,19 @@
     </div>
 </section>
 
+</main>
+
 <!-- FOOTER -->
 <footer id="contacto">
     <div class="footer-container">
-        <div class="footer-left">
-            <h2>Contacto</h2>
-            <p>Dulce de Maiz - Repostería Artesanal</p>
-            <p>📧 info@dulcedemaiz.com</p>
-            <p>📱 + 52 55 91 06 73 90</p>
-            <p><a href="/aviso-privacidad.html">Aviso de Privacidad</a></p>
-            <p>© 2025 Todos los derechos reservados</p>
-        </div>
+	        <div class="footer-left">
+	            <h2>Contacto</h2>
+	            <p>Dulce de Maiz - Repostería Artesanal</p>
+	            <p>📧 <a href="mailto:info@dulcedemaiz.com">info@dulcedemaiz.com</a></p>
+	            <p>📱 <a href="tel:+525591067390">+ 52 55 91 06 73 90</a></p>
+	            <p><a href="/aviso-privacidad.html">Aviso de Privacidad</a></p>
+	            <p>© 2025 Todos los derechos reservados</p>
+	        </div>
         <div class="footer-right">
             <div class="qr-code">
                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://lapostreria.com" alt="QR Code">

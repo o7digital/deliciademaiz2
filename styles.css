@@ -384,7 +384,8 @@
         max-width: 600px;
     }
     
-    .slide-content h1 {
+    .slide-content h1,
+    .slide-content h2 {
         font-size: 64px;
         margin-bottom: 20px;
         font-weight: 700;

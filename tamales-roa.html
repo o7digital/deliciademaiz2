@@ -4,6 +4,46 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tamales Roa | Tradición Familiar</title>
+<meta name="description" content="Tamales Roa, empresa familiar fundada en 2012. Tamales artesanales dulces y salados, pedidos por encargo y para eventos.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#F3E1C0">
+
+<link rel="canonical" href="https://dulcedemaiz.com/tamales-roa.html">
+<link rel="icon" href="/public/logo/delicia-logo.jpeg" type="image/jpeg">
+
+<meta property="og:title" content="Tamales Roa | Tradición Familiar">
+<meta property="og:description" content="Tamales Roa, empresa familiar fundada en 2012. Tamales artesanales dulces y salados, pedidos por encargo y para eventos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dulcedemaiz.com/tamales-roa.html">
+<meta property="og:site_name" content="Dulce de Maiz">
+<meta property="og:locale" content="es_MX">
+<meta property="og:image" content="https://dulcedemaiz.com/public/slider/mesa-tamales.png">
+<meta property="og:image:alt" content="Mesa de tamales artesanales">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tamales Roa | Tradición Familiar">
+<meta name="twitter:description" content="Tamales Roa, empresa familiar fundada en 2012. Tamales artesanales dulces y salados, pedidos por encargo y para eventos.">
+<meta name="twitter:image" content="https://dulcedemaiz.com/public/slider/mesa-tamales.png">
+
+<link rel="preload" as="image" href="/public/slider/mesa-tamales.webp" type="image/webp">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "@id": "https://dulcedemaiz.com/#business",
+  "name": "Dulce de Maiz",
+  "url": "https://dulcedemaiz.com/",
+  "logo": "https://dulcedemaiz.com/public/logo/delicia-logo.jpeg",
+  "image": [
+    "https://dulcedemaiz.com/public/slider/mesa-tamales.png",
+    "https://dulcedemaiz.com/public/slider/postres.png"
+  ],
+  "description": "Repostería artesanal mexicana: pastel de elote, tamales dulces, tortillas y antojitos. Pedidos por encargo y para eventos.",
+  "telephone": "+525591067390",
+  "email": "info@dulcedemaiz.com"
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
@@ -14,12 +54,15 @@
 
 <!-- HEADER -->
 <header>
-    <div class="header-container">
-        <div class="logo">
-            <a href="/#home" aria-label="Ir al inicio">
-                <img src="/public/logo/delicia-logo.jpeg" alt="Dulce de Maiz">
-            </a>
-        </div>
+	    <div class="header-container">
+	        <div class="logo">
+	            <a href="/#home" aria-label="Ir al inicio">
+	                <picture>
+	                    <source srcset="/public/logo/delicia-logo.webp" type="image/webp">
+	                    <img src="/public/logo/delicia-logo.jpeg" width="410" height="607" alt="Logo Dulce de Maiz" decoding="async">
+	                </picture>
+	            </a>
+	        </div>
         <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
             <span></span>
             <span></span>
@@ -40,7 +83,7 @@
 </header>
 
 <main>
-    <section class="page-hero" style="--hero-image: url('/public/slider/mesa-tamales.png');" aria-label="Presentación de Tamales Roa">
+	    <section class="page-hero" style="--hero-image: image-set(url('/public/slider/mesa-tamales.webp') type('image/webp'), url('/public/slider/mesa-tamales.png') type('image/png'));" aria-label="Presentación de Tamales Roa">
         <div class="page-hero-content">
             <p class="page-eyebrow">Tamales artesanales</p>
             <h1>Tamales Roa</h1>
@@ -60,11 +103,14 @@
                 <p>Desde 2012 nos dedicamos a preparar tamales artesanales con ingredientes de calidad y procesos cuidadosos. Aquí no hay atajos: la masa se trabaja con calma, los rellenos se cocinan con paciencia y cada pieza se arma a mano.</p>
                 <p>El resultado es un tamal suave, húmedo y bien sazonado, con rellenos generosos. Perfecto para desayunos, reuniones o para llevar el sabor de la tradición a tu mesa.</p>
                 <p>Tenemos opciones dulces y saladas (según temporada). Pregunta por los sabores disponibles y te ayudamos a elegir.</p>
-            </div>
-            <div class="page-image-card">
-                <img src="/public/productos/tamales.png" alt="Tamales artesanales">
-            </div>
-        </div>
+	            </div>
+	            <div class="page-image-card">
+	                <picture>
+	                    <source srcset="/public/productos/tamales.webp" type="image/webp">
+	                    <img src="/public/productos/tamales.png" alt="Tamales artesanales" width="1024" height="1024" loading="lazy" decoding="async">
+	                </picture>
+	            </div>
+	        </div>
 
         <div class="info-grid" aria-label="Compromisos de Tamales Roa">
             <article class="info-card">
@@ -98,11 +144,14 @@
                 <p style="margin-top: 18px;">
                     <a href="#contacto" class="btn">Cotizar pedido</a>
                 </p>
-            </div>
-            <div class="page-image-card">
-                <img src="/public/slider/postres.png" alt="Sabores tradicionales">
-            </div>
-        </div>
+	        </div>
+	        <div class="page-image-card">
+	            <picture>
+	                <source srcset="/public/slider/postres.webp" type="image/webp">
+	                <img src="/public/slider/postres.png" alt="Sabores tradicionales" width="1024" height="1024" loading="lazy" decoding="async">
+	            </picture>
+	        </div>
+	    </div>
     </section>
 </main>
 
@@ -112,8 +161,8 @@
         <div class="footer-left">
             <h2>Contacto</h2>
             <p>Dulce de Maiz - Repostería Artesanal</p>
-            <p>📧 info@dulcedemaiz.com</p>
-            <p>📱 + 52 55 91 06 73 90</p>
+            <p>📧 <a href="mailto:info@dulcedemaiz.com">info@dulcedemaiz.com</a></p>
+            <p>📱 <a href="tel:+525591067390">+ 52 55 91 06 73 90</a></p>
             <p><a href="/aviso-privacidad.html">Aviso de Privacidad</a></p>
             <p>© 2025 Todos los derechos reservados</p>
         </div>
